@@ -1,4 +1,4 @@
-# kelvin-frontend
+# vue-setup
 
 > A Vue.js project
 
