@@ -1,6 +1,13 @@
 <template>
   <header>
     AppHeader
+    <nav>
+      <ul>
+        <li>
+          <a v-link="{name: 'Home'}">Home</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 </template>
 
@@ -9,5 +16,4 @@
 </script>
 
 <style lang="scss">
-
 </style>

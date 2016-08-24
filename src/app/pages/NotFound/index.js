@@ -1,4 +1,4 @@
-import NotFoundPage from './components/NotFoundPage.vue'
+import NotFoundPage from './components/NotFoundPage'
 
 export default {
   name: 'NotFound',

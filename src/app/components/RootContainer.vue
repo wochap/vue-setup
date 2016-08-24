@@ -1,6 +1,6 @@
 <template>
   <div>
-    App
+    RootContainer
     <router-view></router-view>
   </div>
 </template>
@@ -9,11 +9,10 @@
   import store from 'store'
 
   export default {
-    name: 'App',
+    name: 'RootContainer',
     store
   }
 </script>
 
 <style lang="scss">
-
 </style>
