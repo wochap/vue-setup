@@ -10,7 +10,7 @@ import router from 'app/config/router'
 
 import registerComponents from 'app/config/registerComponents'
 
-import App from 'app/components/App'
+import RootContainer from 'app/components/RootContainer'
 
 Vue.use(Vuex)
 Vue.use(VueRouter)
@@ -19,4 +19,4 @@ registerComponents(Vue)
 
 sync(store, router)
 
-router.start(App, '#app')
+router.start(RootContainer, '#root')

@@ -1,4 +1,4 @@
-import * as types from 'constants/mutationTypes'
+import * as types from 'store/constants/mutationTypes'
 
 export const beginAjaxCall = ({ dispatch }) => {
   dispatch(types.BEGIN_AJAX_CALL)

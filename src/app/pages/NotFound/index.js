@@ -1,6 +1,6 @@
-import NotFound from './components/NotFound.vue'
+import NotFoundPage from './components/NotFoundPage.vue'
 
 export default {
   name: 'NotFound',
-  component: NotFound
+  component: NotFoundPage
 }

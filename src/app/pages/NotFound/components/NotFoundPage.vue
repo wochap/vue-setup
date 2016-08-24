@@ -1,12 +1,12 @@
 <template>
   <div>
-    NotFound
+    NotFoundPage
   </div>
 </template>
 
 <script>
   export default {
-    name: 'NotFound'
+    name: 'NotFoundPage'
   }
 </script>
 

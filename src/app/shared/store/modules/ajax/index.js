@@ -1,4 +1,4 @@
-import * as types from 'constants/mutationTypes'
+import * as types from 'store/constants/mutationTypes'
 
 const state = {
   inProgress: 0
