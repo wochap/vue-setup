@@ -4,7 +4,10 @@
     <nav>
       <ul>
         <li>
-          <a v-link="{name: 'Home'}">Home</a>
+          <a v-link="{name: 'Home', exact: true}">Home</a>
+        </li>
+        <li>
+          <a v-link="{name: 'NotFound'}">NotFound</a>
         </li>
       </ul>
     </nav>
