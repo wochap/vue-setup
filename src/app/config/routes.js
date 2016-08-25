@@ -3,5 +3,6 @@ import NotFound from 'app/pages/NotFound'
 
 export const routes = {
   '/': Home,
+  '/404': NotFound,
   '*': NotFound
 }
